@@ -27,6 +27,8 @@ import (
 
 	"github.com/helm/helm-mapkubeapis/pkg/common"
 	v3 "github.com/helm/helm-mapkubeapis/pkg/v3"
+
+	_ "k8s.io/client-go/plugin/pkg/client/auth"
 )
 
 // MapOptions contains the options for Map operation
